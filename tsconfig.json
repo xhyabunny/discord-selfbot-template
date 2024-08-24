@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "isolatedModules": true,
+    "incremental": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/*.ts", "src/commands/*.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "selfbot",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx tsc && node dist"
+  },
+  "author": "xhyabunny",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "discord.js-selfbot-v13": "v3.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/archiver": "^6.0.2",
+    "@types/node-fetch": "^2.6.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
