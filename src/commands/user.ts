@@ -1,4 +1,4 @@
-import { Client, Message } from "discord.js-selfbot-v13";
+import { Client, Message } from 'xhyabunny-selfbot-v13';
 import { writeFileSync, readFileSync } from 'fs';
 import { UserObj, UserArray, ActivityObj } from "../types";
 import { presenceEmoji } from "../functions/presenceEmoji";

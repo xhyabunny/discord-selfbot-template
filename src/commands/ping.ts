@@ -1,4 +1,4 @@
-import { Message } from "discord.js-selfbot-v13";
+import { Message } from 'xhyabunny-selfbot-v13';
 
 export default async function ping(msg: Message) {
     msg.delete()

@@ -1,6 +1,6 @@
 import { UserObj, UserArray } from '../types';
 import { writeFileSync, readFileSync } from 'fs';
-import { Client, Presence, User } from 'discord.js-selfbot-v13';
+import { Client, Presence, User } from 'xhyabunny-selfbot-v13';
 import { presenceEmoji } from './presenceEmoji'
 import { formatEmoji } from './formatEmoji'
 

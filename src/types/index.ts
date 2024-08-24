@@ -1,4 +1,4 @@
-import { ActivityPlatform, ActivityType } from "discord.js-selfbot-v13";
+import { ActivityPlatform, ActivityType } from 'xhyabunny-selfbot-v13';
 
 export interface UserObj {
     alias: string;

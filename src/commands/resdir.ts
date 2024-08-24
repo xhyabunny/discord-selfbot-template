@@ -1,4 +1,4 @@
-import { Message } from 'discord.js-selfbot-v13';
+import { Message } from 'xhyabunny-selfbot-v13';
 import config from '../config';
 
 export function resdir(msg: Message) {

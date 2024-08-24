@@ -1,6 +1,6 @@
 ﻿import config from "./config";
 import comands from './commands/index';
-import { Client, Message, User } from 'discord.js-selfbot-v13';
+import { Client, Message, User } from 'xhyabunny-selfbot-v13';
 import { updateUserInfo } from './functions/updateUserInfo';
 import { readFileSync } from 'fs';
 

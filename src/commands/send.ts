@@ -1,5 +1,5 @@
 import config from '../config';
-import { Message } from 'discord.js-selfbot-v13';
+import { Message } from 'xhyabunny-selfbot-v13';
 import { join } from 'path';
 import { statSync, readFileSync, readdirSync, createWriteStream, unlinkSync } from 'fs';
 import { pipeline } from 'stream';

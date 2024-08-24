@@ -1,4 +1,4 @@
-import { Message, Client, MessageAttachment } from "discord.js-selfbot-v13";
+import { Message, Client, MessageAttachment } from 'xhyabunny-selfbot-v13';
 import fetch from 'node-fetch'
 import { writeFileSync, mkdirSync } from 'fs'
 
