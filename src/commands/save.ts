@@ -39,5 +39,8 @@ export default async function save(msg: Message, args: string[], client: Client)
         case "files":
             message.attachments.forEach(async (file: MessageAttachment) => await downloadFile(message, file))
             break;
+        case "url":
+            // ...
+            break;
     }
 }

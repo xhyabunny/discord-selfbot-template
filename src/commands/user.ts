@@ -2,6 +2,7 @@ import { Client, Message } from 'xhyabunny-selfbot-v13';
 import { writeFileSync, readFileSync } from 'fs';
 import { UserObj, UserArray, ActivityObj } from "../types";
 import { presenceEmoji } from "../functions/presenceEmoji";
+import config from '../config';
 
 export default async function user(msg: Message, args: string[], client: Client) {
     switch (args[2]) {
@@ -139,6 +140,6 @@ ${selectedUser.activities.length > 0 ? selectedUser.activities.map(activity => `
             }
 
             break;
-        default: try { (await msg.react('❌')).message.edit('invalid argument `'+args[2]+'` please suse `@me help`') } catch ( error ) { return null }
+        default: try { (await msg.react('❌')).message.edit(`invalid argument \`${args[2]}\` please use \`${config.prefix} help\``) } catch ( error ) { return null }
     }
 }

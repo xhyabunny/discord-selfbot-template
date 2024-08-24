@@ -3,7 +3,7 @@ import { Message } from 'xhyabunny-selfbot-v13';
 import { join } from "path";
 import config from '../config';
 
-const PAGE_SIZE = 2000; // Límite de caracteres para los mensajes
+const PAGE_SIZE = 2000;
 
 function splitIntoPages(content: string, pageSize: number): string[] {
     const pages: string[] = [];

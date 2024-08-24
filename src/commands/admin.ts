@@ -1,5 +1,6 @@
 import { Client, Message } from 'xhyabunny-selfbot-v13';
 import { writeFileSync, readFileSync } from 'fs';
+import config from '../config';
 
 export default async function admin(msg: Message, args: string[], client: Client) {
     switch (args[2]) {
@@ -62,7 +63,7 @@ export default async function admin(msg: Message, args: string[], client: Client
 
             break;
         default:
-            try { (await msg.react('❌')).message.edit('invalid argument `' + args[2] + '` please suse `@me help`') } catch (error) { return null }
+            try { (await msg.react('❌')).message.edit(`invalid argument \`${args[2]}\` please use \`${config.prefix} help\``) } catch ( error ) { return null }
             return
     }
 }

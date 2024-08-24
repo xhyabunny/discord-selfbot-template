@@ -24,7 +24,7 @@ client.on('messageCreate', (msg: Message) => {
     try {
         comands[args[1]](msg, args, client);
     } catch (error) {
-        msg.edit(`Unknown command \`${args[1]}\` use \`@me help\``);
+        msg.edit(`Unknown command \`${args[1]}\` use \`${config.prefix} help\``);
         msg.react('❌');
     }
 });
